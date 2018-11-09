@@ -25,5 +25,5 @@ def obtener_nombre(self)
     return self.nombre
 
 def presentar_datos(self):
-    cadena = "informacion de %s %s %s\n\tcedula%s"%(self.obtener_nombre),(self.obtener_apellido), (self.obtenercedula)
+    cadena = "Informacion de %s %s\n\tcedula%s"%(self.obtener_nombre),(self.obtener_apellido), (self.obtenercedula)
     return cadena
